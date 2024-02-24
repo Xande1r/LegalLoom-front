@@ -1,0 +1,144 @@
+{
+	"pages": [
+	{
+		"path" : "pages/login/login",
+		"style" : 
+		{
+			"navigationBarTitleText" : "LegalLoom",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/home/home",
+		"style" : 
+		{
+			"navigationBarTitleText" : "LegalLoom",
+			"enablePullDownRefresh" : false
+			
+		}
+	},
+	{
+		"path" : "pages/my/my",
+		"style" : 
+		{
+			"navigationBarTitleText" : "LegalLoom",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/memo/memo",
+		"style" : 
+		{
+			"navigationBarTitleText" : "LegalLoom",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/feedback/feedback",
+		"style" : 
+		{
+			"navigationBarTitleText" : "LegalLoom",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/chat/chat",
+		"style" : 
+		{
+			"navigationBarTitleText" : "LegalLoom",
+			"enablePullDownRefresh" : false
+		}
+	}],
+	"subPackages": [
+		{
+			"root": "subpackage",
+			"pages": [
+				{
+					"path": "case_forward/case_forward",
+					"style" :
+					{
+					    "navigationBarTitleText": "LegalLoom",
+					    "enablePullDownRefresh": false
+					}
+				},
+				{
+					"path" : "knowledge-extend/knowledge-extend",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "search/search",
+					"style" : 
+					{
+						"navigationBarTitleText" : "LegalLoom",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "lawyer_market/lawyer_market",
+					"style" : 
+					{
+						"navigationBarTitleText" : "LegalLoom",
+						"enablePullDownRefresh" : false
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "LegalLoom",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#e4f2f2",
+		"app-plus": {
+			"background": "#e4f2f2"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"selectedColor": "black",
+		"backgroundColor": "#ebf6f6",
+		"color": "#000",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "/static/tabBar/home.png",
+				"text": "首页",
+				"selectedIconPath": "static/tabBar/home-selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/tabBar/my.png",
+				"selectedIconPath": "/static/tabBar/my-selected.png",
+				"text": "我的"
+			},
+			{
+				"pagePath": "pages/memo/memo",
+				"iconPath": "/static/tabBar/memo.png",
+				"selectedIconPath": "/static/tabBar/memo-selected.png",
+				"text": "备忘录"
+			},
+			{
+				"pagePath": "pages/feedback/feedback",
+				"iconPath": "/static/tabBar/feedback.png",
+				"selectedIconPath": "/static/tabBar/feedback-selected.png",
+				"text": "反馈"
+			}
+		],
+		"midButton": {
+			"iconPath": "/static/tabBar/chat-bc.png",
+			"text": "AI对话",
+			"iconWidth": "40px",
+			"height":"60px"
+		}
+	}
+}
